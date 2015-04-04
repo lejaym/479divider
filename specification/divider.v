@@ -12,6 +12,9 @@
 // >> verilog controller.v datapath.v divider.v test_divider.v
 // (do not include other modules)
 
+`include "datapath.v"
+`include "controller.v"
+
 module divider(
          remainder,
          quotient,

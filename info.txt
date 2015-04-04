@@ -1,0 +1,18 @@
+Steve Novakovic, 13305081, steve@stevenovakov.com
+Marc Lejay, 47593108, lejaym@interchange.ubc.ca
+
+NOTE ON RUNNING THE VERILOG:
+
+Every submodule has "include" statements in the divider.v file. Please use the following command to run it:
+
+>> verilog divider.v <TESTBENCH>.v 
+
+where <TESTBENCH>.v  is your version of "test_divider.v"
+
+DOES OUR DESIGN WORK?
+
+
+
+DISCLOSURE ON HELP
+
+We did not collaborate with any other student team.

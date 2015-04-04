@@ -35,6 +35,11 @@ wire [1:0] SBn;
 wire SBand, SBnor;
 wire ctrl0, ctrl1;
 
+reg [9:0] valreg;
+wire validclk;
+
+assign valid = valreg[9];
+
 assign SBand = SBc[0] & SBc[1];
 assign SBnor = ~(SBc[0] | SBc[1]);
 
@@ -56,17 +61,27 @@ always @(posedge clk or posedge reset)
 begin
   if (reset == 1'b1) begin
     SBc = 2'b00;
+    valreg = 10'b000000001;
   end
   else begin
     SBc <= ~SBn;
   end  
 end
 
-// diagnostic only
-//always @(SBc or SBn)
-//begin
-//  $display("SBc, SBn: %b  %b", SBc, ~SBn);
-//end
+always @(start)
+begin
+  if (start == 1'b1) begin
+    valreg = 10'b000000001;
+  end
+end
+
+always @(posedge SBnor)
+begin
+  if (SBnor == 1'b1)
+  begin
+    valreg <= valreg << 1;
+  end
+end
 
 endmodule
 

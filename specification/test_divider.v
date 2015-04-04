@@ -76,7 +76,7 @@ task test_divider;
     numpass = 0;
     numfail = 0;
     reset = 0;
-    numtest = 40;
+    numtest = 50;
 
     // Do 40 test cases (you might want to test with many more
     // than this, just to be sure your design is ok).  Note that
@@ -118,9 +118,11 @@ task test_divider;
 
        // Print Results for this test case
        
-       //
-       // TODO: add check for "valid" output as they will be testing for it
-       //
+       // Makes sure that valid is valid. 
+       if (valid)
+       begin
+        $display("VALID");
+       end
 
        if (quotient * divisorin_copy + remainder == dividendin_copy) 
        begin
