@@ -1,16 +1,14 @@
 magic
 tech scmos
-timestamp 1428257868
-<< error_p >>
-rect 22 -21 42 -20
+timestamp 1428352843
 << pwell >>
-rect 0 237 110 279
-rect 0 92 110 154
-rect 0 -109 110 -21
+rect 0 240 110 279
+rect 0 95 110 151
+rect 0 -106 110 -24
 << nwell >>
-rect 0 154 110 237
-rect 0 -21 110 92
-rect 0 -160 110 -109
+rect 0 157 110 234
+rect 0 -18 110 89
+rect 0 -160 110 -112
 << polysilicon >>
 rect 22 250 24 252
 rect 34 250 60 252
@@ -158,11 +156,10 @@ rect 21 265 42 277
 rect 49 265 71 277
 rect 78 265 110 277
 rect 0 263 110 265
-rect 10 253 24 257
-rect 10 242 21 253
-rect 10 235 13 242
-rect 20 235 21 242
-rect 10 222 21 235
+rect 13 253 24 257
+rect 13 241 21 253
+rect 13 235 15 241
+rect 13 222 21 235
 rect 49 248 60 254
 rect 87 253 97 257
 rect 24 241 87 245
@@ -172,7 +169,7 @@ rect 24 230 87 235
 rect 90 240 97 253
 rect 96 234 97 240
 rect 90 222 97 234
-rect 10 218 24 222
+rect 13 218 24 222
 rect 87 218 97 222
 rect 64 209 69 214
 rect 101 214 107 248
@@ -324,13 +321,10 @@ rect 48 -158 79 -146
 rect 86 -158 110 -146
 rect 0 -160 110 -158
 << metal2 >>
-rect 12 242 21 279
+rect 15 241 21 277
 rect 46 260 56 261
 rect 46 254 49 260
 rect 55 254 56 260
-rect 12 235 13 242
-rect 20 235 21 242
-rect 12 233 21 235
 rect 25 241 36 242
 rect 25 235 28 241
 rect 34 235 36 241
@@ -479,7 +473,7 @@ rect 70 -138 74 -118
 rect 78 -138 82 -118
 << m2contact >>
 rect 49 254 55 260
-rect 13 235 20 242
+rect 15 235 21 241
 rect 28 235 34 241
 rect 90 234 96 240
 rect 69 209 75 215
@@ -517,7 +511,6 @@ rect 16 -158 23 -146
 rect 41 -158 48 -146
 rect 79 -158 86 -146
 << labels >>
-rlabel metal2 12 233 21 279 0 REGIN
 rlabel metal1 37 148 54 162 0 REGMEM
 rlabel polysilicon 100 -46 105 -26 0 RST
 rlabel metal2 51 -160 64 -134 0 REGOUT
@@ -525,4 +518,5 @@ rlabel metal1 27 -43 60 -37 0 REGOUTn
 rlabel metal1 62 74 74 111 0 INCLKn
 rlabel metal1 25 63 40 97 0 INCLK
 rlabel polysilicon 82 87 94 97 0 CLK
+rlabel space 12 233 21 279 0 REGIN
 << end >>
