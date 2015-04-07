@@ -1,0 +1,117 @@
+magic
+tech scmos
+timestamp 1428356401
+<< pwell >>
+rect -35 3 75 26
+<< nwell >>
+rect -35 30 75 61
+<< polysilicon >>
+rect -2 58 38 60
+rect -2 53 0 58
+rect 8 53 10 55
+rect 26 53 28 55
+rect 36 53 38 58
+rect -2 31 0 33
+rect 8 31 10 33
+rect 26 31 28 33
+rect 8 30 28 31
+rect 8 29 27 30
+rect -2 27 10 29
+rect -2 23 0 27
+rect 26 26 27 29
+rect 8 23 10 25
+rect 26 23 28 26
+rect 36 23 38 33
+rect -2 11 0 13
+rect 8 9 10 13
+rect 26 11 28 13
+rect 36 10 38 13
+rect 36 9 37 10
+rect 8 7 37 9
+<< ndiffusion >>
+rect -4 13 -2 23
+rect 0 13 2 23
+rect 6 13 8 23
+rect 10 13 12 23
+rect 24 13 26 23
+rect 28 13 30 23
+rect 34 13 36 23
+rect 38 13 40 23
+<< pdiffusion >>
+rect -4 33 -2 53
+rect 0 33 2 53
+rect 6 33 8 53
+rect 10 33 12 53
+rect 24 33 26 53
+rect 28 33 30 53
+rect 34 33 36 53
+rect 38 33 40 53
+<< metal1 >>
+rect -35 61 75 68
+rect -35 57 39 61
+rect 46 57 75 61
+rect 30 53 34 57
+rect -8 28 -4 33
+rect -8 23 -4 24
+rect 2 23 6 33
+rect 12 28 16 33
+rect 12 23 16 24
+rect 20 28 24 33
+rect 40 30 44 33
+rect 31 26 44 30
+rect 20 23 24 24
+rect 40 23 44 26
+rect 2 12 6 13
+rect -35 6 -8 10
+rect 30 3 34 13
+rect 41 6 75 10
+<< metal2 >>
+rect -35 39 -31 43
+rect -8 28 -4 61
+rect 12 39 75 43
+rect 12 28 16 39
+rect 20 20 24 24
+rect -8 16 24 20
+rect -8 10 -4 16
+rect 2 3 6 8
+<< ntransistor >>
+rect -2 13 0 23
+rect 8 13 10 23
+rect 26 13 28 23
+rect 36 13 38 23
+<< ptransistor >>
+rect -2 33 0 53
+rect 8 33 10 53
+rect 26 33 28 53
+rect 36 33 38 53
+<< polycontact >>
+rect 27 26 31 30
+rect 37 6 41 10
+<< ndcontact >>
+rect -8 13 -4 23
+rect 2 13 6 23
+rect 12 13 16 23
+rect 20 13 24 23
+rect 30 13 34 23
+rect 40 13 44 23
+<< pdcontact >>
+rect -8 33 -4 53
+rect 2 33 6 53
+rect 12 33 16 53
+rect 20 33 24 53
+rect 30 33 34 53
+rect 40 33 44 53
+<< m2contact >>
+rect -8 24 -4 28
+rect 12 24 16 28
+rect 20 24 24 28
+rect -8 6 -4 10
+rect 2 8 6 12
+<< nsubstratencontact >>
+rect 39 57 46 61
+<< labels >>
+rlabel metal2 2 3 6 8 1 Out
+rlabel metal1 -10 6 -8 10 3 ShiftOut
+rlabel metal1 41 6 46 10 7 ShiftIn
+rlabel metal2 -8 28 -4 61 3 In
+<< end >>
