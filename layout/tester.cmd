@@ -25,25 +25,37 @@ w clk reset start state sign quotient remainder qmuxout rmuxout divregout sumout
 set dividendin 00000000
 set divisorin 0000000
 
-l start
-h clk 
+l clk
 h reset
 s
+l reset
+s
+s
+h clk
+s
 l clk
+s
+
+exit
+l start
+h reset
+h clk
+s
+l clk
+s
 l reset
 s
 
 | Set up vectors
 print "load dividend/divisor"
-set divisorin 0000011
-set dividendin 00010000
-
+set divisorin 1111111
+set dividendin 11111111
 
 h start
 s
 h clk
 s
-l clk
+l clk 
 s
 h clk
 s
@@ -51,100 +63,5 @@ l clk
 s
 l start
 
-print "17 cycles"
-| Now, wait 17 cycles
-
-s
-h clk
-s
-l clk
-s
-h clk
-s
-l clk
-s
-h clk
-s
-l clk
-s
-h clk
-s
-l clk
-s
-h clk
-s
-l clk
-s
-h clk
-s
-l clk
-s
-h clk
-s
-l clk
-s
-h clk
-s
-l clk
-s
-h clk
-s
-l clk
-s
-h clk
-s
-l clk
-s
-h clk
-s
-l clk
-s
-h clk
-s
-l clk
-s
-h clk
-s
-l clk
-s
-h clk
-s
-l clk
-s
-h clk
-s
-l clk
-s
-h clk
-s
-l clk
-s
-h clk
-s
-l clk
-s
-print "extra cycles"
-h clk
-s
-l clk
-s
-h clk
-s
-l clk
-s
-h clk
-s
-l clk
-s
-h clk
-s
-l clk
-s
-
-| Print out results
-
-w remainder quotient
-s
-tcap
 exit
 

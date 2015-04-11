@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1428788278
+timestamp 1428791099
 << metal2 >>
 rect 57 42 65 271
 rect 4 -21 65 -15
@@ -20,7 +20,7 @@ timestamp 1428356401
 transform 1 0 35 0 1 -106
 box -35 3 75 68
 use rego  rego_0 ../cells
-timestamp 1428788278
+timestamp 1428791099
 transform 1 0 0 0 1 -382
 box 0 -160 110 279
 << end >>

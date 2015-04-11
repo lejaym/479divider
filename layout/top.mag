@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1428788720
+timestamp 1428792443
 << pwell >>
 rect 993 1566 1103 1570
 rect 993 1561 1229 1566
@@ -70,6 +70,7 @@ rect 938 1910 1001 1926
 rect -35 1778 5 1840
 rect 43 1821 49 1828
 rect 938 1823 976 1910
+rect 1653 1889 1657 1897
 rect 910 1807 976 1823
 rect -34 1749 4 1778
 rect -34 1733 30 1749
@@ -256,7 +257,7 @@ rect 1451 1956 1464 2012
 rect 1544 1605 1550 2012
 rect 1561 1956 1574 2017
 rect 1594 1986 1607 2029
-rect 1661 1889 1696 1897
+rect 1662 1889 1696 1897
 rect 1661 1743 1682 1753
 rect 1434 1599 1454 1605
 rect 1544 1599 1564 1605
@@ -378,7 +379,7 @@ rect 483 1829 489 1834
 rect 593 1828 599 1833
 rect 703 1828 709 1833
 rect 813 1828 819 1833
-rect 1651 1889 1661 1897
+rect 1657 1889 1662 1897
 rect 1651 1743 1661 1753
 rect 1424 1731 1430 1742
 rect 920 1635 925 1643
@@ -474,47 +475,47 @@ rect 1621 11 1634 17
 rect 1731 11 1744 17
 use datapathL  datapathL_0 ../cells
 array 0 7 110 0 0 1803
-timestamp 1428788720
+timestamp 1428792443
 transform 1 0 30 0 1 562
 box 0 -542 110 1261
 use rego  rego_2 ../cells
-timestamp 1428788278
+timestamp 1428791099
 transform 1 0 993 0 -1 1840
 box 0 -160 110 279
 use rego  rego_3
-timestamp 1428788278
+timestamp 1428791099
 transform 1 0 1103 0 -1 1840
 box 0 -160 110 279
 use rego  rego_5
-timestamp 1428788278
+timestamp 1428791099
 transform 1 0 1213 0 -1 1840
 box 0 -160 110 279
 use rego  rego_6
-timestamp 1428788278
+timestamp 1428791099
 transform 1 0 1323 0 -1 1840
 box 0 -160 110 279
 use rego  rego_7
-timestamp 1428788278
+timestamp 1428791099
 transform 1 0 1433 0 -1 1840
 box 0 -160 110 279
 use rego  rego_8
-timestamp 1428788278
+timestamp 1428791099
 transform 1 0 1543 0 -1 1840
 box 0 -160 110 279
 use rego  rego_4
-timestamp 1428788278
+timestamp 1428791099
 transform 1 0 993 0 1 1275
 box 0 -160 110 279
-use ../cells/rego  rego_9 ../cells
-timestamp 1428724078
+use rego  rego_9
+timestamp 1428791099
 transform 1 0 1103 0 1 1275
 box 0 -160 110 279
 use rego  rego_1
-timestamp 1428788278
+timestamp 1428791099
 transform 1 0 1213 0 1 1275
 box 0 -160 110 279
 use rego  rego_0
-timestamp 1428788278
+timestamp 1428791099
 transform 1 0 1323 0 1 1275
 box 0 -160 110 279
 use and  and_0 ../cells
@@ -522,12 +523,12 @@ timestamp 1427941063
 transform 1 0 1736 0 1 1385
 box -25 -23 14 33
 use smlogic  smlogic_0 ../cells
-timestamp 1428788278
+timestamp 1428791099
 transform 1 0 1304 0 1 1193
 box 123 -143 548 366
 use datapathS  datapathS_0 ../cells
 array 0 7 110 0 0 974
-timestamp 1428788278
+timestamp 1428791099
 transform 1 0 910 0 1 562
 box 0 -542 110 432
 << labels >>

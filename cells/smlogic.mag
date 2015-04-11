@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1428788278
+timestamp 1428791099
 << pwell >>
 rect 125 322 139 356
 rect 123 177 139 233
@@ -640,11 +640,11 @@ rect 386 138 396 145
 rect 442 33 463 40
 rect 387 -78 406 -74
 use rego  rego_0 ../cells
-timestamp 1428788278
+timestamp 1428791099
 transform 1 0 133 0 1 82
 box 0 -160 110 279
 use rego  rego_1
-timestamp 1428788278
+timestamp 1428791099
 transform 1 0 243 0 1 82
 box 0 -160 110 279
 << labels >>
