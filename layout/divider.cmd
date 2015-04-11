@@ -140,4 +140,5 @@ s
 
 w remainder quotient
 s
+tcap
 exit

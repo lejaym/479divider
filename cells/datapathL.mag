@@ -1,103 +1,56 @@
 magic
 tech scmos
-timestamp 1428737138
+timestamp 1428738206
 << pwell >>
 rect 0 690 38 700
 rect 6 684 38 690
 rect 17 676 38 684
+<< polysilicon >>
+rect 0 185 4 189
 << metal1 >>
-rect -38 1255 2 1256
-rect -44 1249 2 1255
-rect -44 1107 -28 1249
-rect 131 1183 147 1187
-rect 105 1176 147 1183
-rect -44 1100 7 1107
-rect -44 866 -28 1100
-rect 131 994 147 1176
-rect 106 987 147 994
-rect -44 859 7 866
-rect -44 666 -28 859
-rect 131 790 147 987
-rect 101 783 147 790
-rect -44 659 8 666
-rect -44 434 -28 659
-rect -5 619 1 623
-rect 131 562 147 783
-rect 103 555 147 562
-rect -44 427 8 434
-rect -44 222 -28 427
-rect 131 329 147 555
-rect 103 322 147 329
-rect -44 213 8 222
-rect -44 -5 -28 213
-rect -4 166 2 170
-rect 131 102 147 322
-rect 101 93 151 102
-rect -45 -14 5 -5
-rect -44 -107 -28 -14
-rect 131 -41 147 93
-rect 104 -50 154 -41
-rect -3 -100 0 -96
-rect -44 -116 9 -107
-rect -44 -255 -28 -116
-rect 131 -180 147 -50
-rect 105 -189 155 -180
-rect -46 -264 4 -255
-rect -44 -456 -28 -264
-rect 131 -329 147 -189
-rect 104 -338 154 -329
-rect -44 -465 6 -456
-rect -44 -466 -28 -465
-rect 131 -531 147 -338
-rect 102 -540 152 -531
-rect 131 -543 147 -540
+rect 1 1256 4 1257
+rect 0 1249 4 1256
+rect 1 1247 4 1249
+rect 105 1176 110 1183
+rect 0 1100 7 1107
+rect 106 987 110 994
+rect 0 859 7 866
+rect 101 783 110 790
+rect 0 659 8 666
+rect 0 619 3 623
+rect 103 555 110 562
+rect 0 427 8 434
+rect 103 322 110 329
+rect 0 213 8 222
+rect 0 166 3 170
+rect 101 93 110 102
+rect 0 -14 5 -5
+rect 104 -50 110 -41
+rect 0 -116 9 -107
+rect 105 -189 110 -180
+rect 0 -264 4 -255
+rect 104 -338 110 -329
+rect 0 -465 6 -456
+rect 102 -540 110 -531
 << metal2 >>
-rect 13 1254 19 1265
+rect 13 1254 19 1261
 rect 27 781 54 788
-rect 0 -15 6 670
+rect 0 189 6 670
 rect 16 427 65 432
+rect 2 185 6 189
+rect 0 -15 6 185
 rect 0 -21 65 -15
 rect 4 -471 10 -21
-rect 27 -30 63 -27
 rect 96 -27 105 -15
-rect 67 -30 105 -27
-rect 27 -33 105 -30
+rect 27 -33 105 -27
 rect 27 -45 31 -33
 rect 37 -105 41 -103
 rect 21 -110 41 -105
 rect 7 -475 10 -471
 rect 4 -493 10 -475
 rect 4 -500 31 -493
-<< polycontact >>
-rect -2 1076 2 1080
-rect 108 1075 112 1079
-rect -2 185 2 189
-rect 109 185 113 189
 << m2contact >>
-rect 13 1265 19 1270
-rect -3 1056 1 1060
-rect 109 1056 113 1060
-rect -3 886 1 890
-rect 110 885 114 889
-rect 23 767 27 771
-rect -2 754 2 758
-rect 107 754 111 758
-rect -9 619 -5 623
-rect 108 619 112 623
-rect 16 440 20 444
 rect 95 426 101 432
-rect -8 166 -4 170
-rect 109 166 113 170
-rect 63 -30 67 -26
-rect 109 -67 113 -63
-rect -7 -100 -3 -96
-rect 109 -100 113 -96
-rect 16 -137 20 -133
-rect -4 -291 0 -287
-rect 110 -292 114 -288
-rect -4 -436 0 -432
-rect 110 -437 114 -433
-rect 3 -475 7 -471
 use reg  reg_0
 timestamp 1428437267
 transform 1 0 18 0 1 982
@@ -118,34 +71,4 @@ use rego  rego_0
 timestamp 1428724078
 transform 1 0 0 0 1 -382
 box 0 -160 110 279
-<< labels >>
-rlabel metal1 -44 -466 -28 1255 1 GND
-rlabel metal1 131 -543 147 1187 1 Vdd
-rlabel m2contact 13 1265 19 1270 5 regin
-rlabel m2contact 109 1056 113 1060 1 clkld
-rlabel m2contact 23 767 27 771 1 regout
-rlabel m2contact 107 754 111 758 1 add
-rlabel m2contact 108 619 112 623 1 cin
-rlabel m2contact -2 754 2 758 1 addout
-rlabel m2contact -9 619 -5 623 1 cout
-rlabel m2contact 16 440 20 444 1 sum
-rlabel polycontact 109 185 113 189 1 sel0
-rlabel m2contact 109 166 113 170 1 sel1
-rlabel polycontact -2 185 2 189 1 sel0out
-rlabel m2contact -8 166 -4 170 1 sel1out
-rlabel m2contact 63 -30 67 -26 1 muxout
-rlabel m2contact 109 -100 113 -96 1 shiftin
-rlabel m2contact -7 -100 -3 -96 1 shiftout
-rlabel m2contact 16 -137 20 -133 1 botregin
-rlabel m2contact 110 -292 114 -288 1 clk2
-rlabel m2contact -4 -291 0 -287 1 outclk2
-rlabel m2contact 110 -437 114 -433 1 reset2
-rlabel m2contact -4 -436 0 -432 1 resetout2
-rlabel m2contact 3 -475 7 -471 1 botregout
-rlabel polycontact -2 1076 2 1080 1 clkout1
-rlabel m2contact -3 1056 1 1060 1 clkldout
-rlabel polycontact 108 1075 112 1079 1 clk1
-rlabel m2contact 110 885 114 889 1 reset1
-rlabel m2contact -3 886 1 890 1 resetout1
-rlabel m2contact 109 -67 113 -63 1 inbit
 << end >>
