@@ -25,7 +25,8 @@ w clk reset start state sign quotient remainder qmuxout rmuxout divregout sumout
 set dividendin 00000000
 set divisorin 0000000
 
-l clk
+l start
+h clk
 h reset
 s
 l reset
@@ -34,6 +35,7 @@ s
 h clk
 s
 l clk
+h reset
 s
 
 exit
