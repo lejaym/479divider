@@ -4,7 +4,7 @@
 
 
 stepsize 1000
-settle 10
+settle 50
 vector divisorin divisorin_{6:0}
 vector dividendin dividendin_{7:0}
 vector remainder remainder_{6:0}
@@ -21,8 +21,7 @@ vector qregin qregin{7:0}
 vector rregin rregin{7:0}
 
 |smlogic related: clk reset start state add shift sel inbit load
-w clk reset start state sign add quotient remainder qregin qmuxout rregin rmuxout divregout sumout
-| valid shift inbit validregs
+w clk reset start state sign add quotient remainder qregin qmuxout rregin rmuxout divregout sumout valid shift inbit
 
 |w  rmuxout qmuxout divregout quotient remainder SB0 SB1 sign start reset clk 
 |sum0 sum1 sum2 sum3 sum4 sum5 sum6 divregout0 divregout1 divregout2 divregout3 divregout4 divregout5 divregout6 divregout7
@@ -73,6 +72,52 @@ h clk
 s
 l clk
 s
+h clk
+s
+l clk
+s
+h clk
+s
+l clk
+s
+h clk
+s
+l clk
+s
+h clk
+s
+l clk
+s
+h clk
+s
+l clk
+s
+h clk
+s
+l clk
+s
+h clk
+s
+l clk
+s
+h clk
+s
+l clk
+s
+h clk
+s
+l clk
+s
+h clk
+s
+l clk
+s
+Print "LAST CYCLE"
+h clk
+s
+l clk
+s
+
 | repeat h clk s l clk s 14 times
 
 
