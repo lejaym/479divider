@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1428791099
+timestamp 1428801662
 << metal2 >>
 rect 57 42 65 271
 rect 4 -21 65 -15
@@ -11,16 +11,16 @@ rect 27 -45 31 -33
 rect 37 -105 41 -103
 rect 21 -110 41 -105
 rect 4 -500 31 -493
-use mux  mux_0 ../cells
+use mux  mux_0
 timestamp 1428736483
 transform 1 0 20 0 1 -15
 box -20 0 90 447
-use shifter  shifter_0 ../cells
+use shifter  shifter_0
 timestamp 1428356401
 transform 1 0 35 0 1 -106
 box -35 3 75 68
-use rego  rego_0 ../cells
-timestamp 1428791099
+use rego  rego_0
+timestamp 1428801662
 transform 1 0 0 0 1 -382
-box 0 -160 110 279
+box 0 -854 598 279
 << end >>

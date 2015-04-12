@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1428791099
+timestamp 1428801662
 << pwell >>
 rect 125 322 139 356
 rect 123 177 139 233
@@ -260,11 +260,13 @@ rect 368 155 532 163
 rect 361 148 424 152
 rect 354 142 360 145
 rect 128 123 134 139
-rect 356 122 360 142
+rect 356 138 360 142
 rect 369 141 386 145
 rect 396 141 413 145
+rect 356 134 369 138
 rect 410 134 414 141
-rect 356 118 393 122
+rect 360 122 369 134
+rect 360 118 393 122
 rect 420 134 424 148
 rect 434 141 475 145
 rect 430 134 434 141
@@ -639,16 +641,16 @@ rect 297 -141 321 -136
 rect 386 138 396 145
 rect 442 33 463 40
 rect 387 -78 406 -74
-use rego  rego_0 ../cells
-timestamp 1428791099
+use rego  rego_0
+timestamp 1428801662
 transform 1 0 133 0 1 82
-box 0 -160 110 279
+box 0 -854 598 279
 use rego  rego_1
-timestamp 1428791099
+timestamp 1428801662
 transform 1 0 243 0 1 82
-box 0 -160 110 279
+box 0 -854 598 279
 << labels >>
-rlabel metal2 361 41 369 141 3 Vdd
+rlabel space 361 41 369 141 3 Vdd
 rlabel metal2 385 -56 451 -52 1 start
 rlabel metal1 420 -48 444 -44 1 nextSB1
 rlabel metal1 471 -39 475 -35 1 inbit
