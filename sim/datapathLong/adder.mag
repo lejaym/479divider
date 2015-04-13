@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1428890255
+timestamp 1428889669
 << pwell >>
 rect 0 191 110 278
 rect 0 0 110 45
@@ -190,7 +190,7 @@ rect 68 275 72 278
 rect 37 265 38 275
 rect 52 265 58 275
 rect 78 262 82 265
-rect 27 258 43 262
+rect 6 258 43 262
 rect 47 258 82 262
 rect 67 251 83 255
 rect 57 238 58 248
@@ -260,7 +260,8 @@ rect 58 4 62 7
 rect 88 4 92 7
 rect 0 0 110 4
 << metal2 >>
-rect 23 262 27 356
+rect 0 204 6 258
+rect 23 216 27 356
 rect 36 312 40 336
 rect 33 235 37 265
 rect 53 248 57 322
@@ -271,7 +272,7 @@ rect 69 229 95 233
 rect 69 224 73 229
 rect 37 220 41 224
 rect 45 220 73 224
-rect 0 212 41 216
+rect 23 212 41 216
 rect 45 212 81 216
 rect 77 209 81 212
 rect 25 133 29 187
@@ -415,7 +416,7 @@ rect 83 322 87 342
 rect 36 308 40 312
 rect 91 278 95 282
 rect 33 265 37 275
-rect 23 258 27 262
+rect 0 258 6 262
 rect 83 251 87 255
 rect 53 238 57 248
 rect 83 238 87 248
@@ -449,14 +450,12 @@ rlabel metal2 31 82 35 126 1 Cout
 rlabel metal2 53 119 57 126 5 Cin
 rlabel metal2 63 119 67 126 5 X
 rlabel metal2 16 0 20 27 3 sum
-rlabel polysilicon 74 72 76 109 1 A
 rlabel metal2 69 220 73 231 1 BxnorAdd
-rlabel metal2 45 212 81 216 1 A
 rlabel metal1 38 187 60 191 1 X
 rlabel polysilicon 64 184 66 187 1 Cin
 rlabel metal2 91 231 95 278 1 BxnorAdd
 rlabel metal1 90 315 94 326 1 AddIn
 rlabel metal1 21 187 25 191 3 Cout
-rlabel metal1 17 322 53 326 1 AddOut
-rlabel space 23 212 27 349 0 A
+rlabel metal2 23 262 27 356 1 A
+rlabel metal1 0 322 53 326 1 AddOut
 << end >>

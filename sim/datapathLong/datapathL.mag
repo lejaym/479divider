@@ -1,0 +1,185 @@
+magic
+tech scmos
+timestamp 1428889669
+<< pwell >>
+rect 0 690 38 700
+rect 6 684 38 690
+rect 17 676 38 684
+<< polysilicon >>
+rect 0 185 4 189
+<< metal1 >>
+rect 1 1256 4 1257
+rect -32 1250 5 1256
+rect -32 1106 -20 1250
+rect 0 1249 4 1250
+rect 1 1247 4 1249
+rect 105 1177 147 1183
+rect 105 1176 110 1177
+rect 0 1106 7 1107
+rect -32 1100 7 1106
+rect -32 866 -20 1100
+rect 106 992 110 994
+rect 135 992 147 1177
+rect 106 987 147 992
+rect 110 986 147 987
+rect 75 925 79 931
+rect 68 919 79 925
+rect -32 860 7 866
+rect -32 666 -20 860
+rect 0 859 7 860
+rect 101 789 110 790
+rect 135 789 147 986
+rect 101 783 147 789
+rect -32 660 0 666
+rect -32 432 -20 660
+rect 6 659 10 666
+rect 0 619 3 623
+rect 135 562 147 783
+rect 103 556 147 562
+rect 103 555 110 556
+rect 0 432 8 434
+rect -32 427 8 432
+rect -32 426 0 427
+rect -32 218 -20 426
+rect 103 326 110 329
+rect 135 326 147 556
+rect 103 322 147 326
+rect 110 320 147 322
+rect 0 218 8 222
+rect -32 213 8 218
+rect -32 212 0 213
+rect -32 -8 -20 212
+rect 0 166 3 170
+rect 135 102 147 320
+rect 101 96 147 102
+rect 101 93 110 96
+rect 0 -8 5 -5
+rect -32 -14 5 -8
+rect -32 -109 -20 -14
+rect 135 -40 147 96
+rect 110 -41 147 -40
+rect 104 -46 147 -41
+rect 104 -50 110 -46
+rect 0 -109 9 -107
+rect -32 -115 9 -109
+rect -32 -256 -20 -115
+rect 0 -116 9 -115
+rect 105 -183 110 -180
+rect 135 -183 147 -46
+rect 105 -189 147 -183
+rect 0 -256 4 -255
+rect -32 -262 4 -256
+rect -32 -458 -20 -262
+rect 0 -264 4 -262
+rect 104 -330 110 -329
+rect 135 -330 147 -189
+rect 104 -336 147 -330
+rect 104 -338 110 -336
+rect 0 -458 6 -456
+rect -32 -464 6 -458
+rect 0 -465 6 -464
+rect 102 -532 110 -531
+rect 135 -532 147 -336
+rect 102 -538 147 -532
+rect 102 -540 110 -538
+<< metal2 >>
+rect 13 1254 19 1264
+rect 27 781 54 788
+rect 0 189 6 648
+rect 16 427 65 432
+rect 2 185 6 189
+rect 0 -15 6 185
+rect 0 -21 65 -15
+rect 4 -27 10 -21
+rect 96 -27 105 -15
+rect 8 -31 10 -27
+rect 4 -493 10 -31
+rect 27 -31 58 -27
+rect 62 -31 105 -27
+rect 27 -33 105 -31
+rect 27 -45 31 -33
+rect 37 -105 41 -103
+rect 21 -110 41 -105
+rect 4 -500 31 -493
+<< polycontact >>
+rect -4 1075 0 1079
+rect 110 1075 114 1079
+rect 109 918 113 922
+rect -4 619 0 623
+rect -4 185 0 189
+rect 110 185 114 189
+rect -4 166 0 170
+rect 109 -405 113 -401
+<< m2contact >>
+rect 13 1264 19 1268
+rect -3 1056 1 1060
+rect 110 1056 114 1060
+rect -4 886 0 890
+rect 23 766 27 770
+rect -4 754 0 758
+rect 110 754 114 758
+rect 110 619 114 623
+rect 16 443 20 447
+rect 95 426 101 432
+rect 110 166 114 170
+rect 4 -31 8 -27
+rect 58 -31 62 -27
+rect 110 -67 114 -63
+rect -4 -100 0 -96
+rect 110 -100 114 -96
+rect 15 -136 19 -132
+rect -4 -293 0 -289
+rect 110 -292 114 -288
+rect -4 -437 0 -433
+use reg  reg_0
+timestamp 1428793290
+transform 1 0 18 0 1 982
+box -18 -201 92 279
+use adder  adder_0
+timestamp 1428889669
+transform 1 0 0 0 1 432
+box 0 0 110 356
+use mux  mux_0
+timestamp 1428736483
+transform 1 0 20 0 1 -15
+box -20 0 90 447
+use shifter  shifter_0
+timestamp 1428881673
+transform 1 0 35 0 1 -106
+box -35 3 75 68
+use rego  rego_0
+timestamp 1428793378
+transform 1 0 0 0 1 -382
+box 0 -160 110 279
+<< labels >>
+rlabel metal1 135 -538 147 1183 1 Vdd
+rlabel metal1 -32 -464 -20 1256 1 GND
+rlabel m2contact 13 1264 19 1268 5 regin
+rlabel m2contact -3 1056 1 1060 1 clkldout
+rlabel space 23 694 27 788 1 regout
+rlabel polycontact 109 918 113 922 1 reset1
+rlabel m2contact -4 886 0 890 1 resetout1
+rlabel m2contact 110 1056 114 1060 1 clkld
+rlabel polycontact 110 1075 114 1079 1 clk1
+rlabel polycontact -4 1075 0 1079 1 clkout1
+rlabel m2contact 110 754 114 758 1 add
+rlabel m2contact -4 754 0 758 1 addout
+rlabel m2contact 23 766 27 770 1 regout
+rlabel m2contact 110 619 114 623 1 cin
+rlabel polycontact -4 619 0 623 1 cout
+rlabel m2contact 16 443 20 447 1 sum
+rlabel m2contact 4 -31 8 -27 1 botregout
+rlabel polycontact 110 185 114 189 1 sel0
+rlabel m2contact 110 166 114 170 1 sel1
+rlabel polycontact -4 166 0 170 1 sel1out
+rlabel polycontact -4 185 0 189 1 sel0out
+rlabel m2contact 58 -31 62 -27 1 muxout
+rlabel m2contact 110 -67 114 -63 1 inbit
+rlabel m2contact 110 -100 114 -96 1 shiftin
+rlabel m2contact -4 -100 0 -96 1 shiftout
+rlabel m2contact 15 -136 19 -132 1 botregin
+rlabel m2contact 110 -292 114 -288 1 clk2
+rlabel m2contact -4 -293 0 -289 1 outclk2
+rlabel polycontact 109 -405 113 -401 1 reset2
+rlabel m2contact -4 -437 0 -433 1 resetout2
+<< end >>

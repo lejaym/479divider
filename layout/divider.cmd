@@ -25,7 +25,7 @@ vector rregin rregin{7:0}
 |clkload nextsb1 nextsb0
 
 
-w clk reset start state sel sign add quotient remainder qregin qmuxout rregin rmuxout divregout sumout valid shift topS0
+w clk reset start state sel sign add quotient remainder qregin qmuxout rregin rmuxout divregout sumout valid shift
 
 
 | FOR ASYNC RESET, CLK MUST BE SET HI or LOW. ASYNC RESET DOES NOT WORK
@@ -34,9 +34,9 @@ w clk reset start state sel sign add quotient remainder qregin qmuxout rregin rm
 
 | Set up vectors
 print "load dividend/divisor"
-set divisorin 0000010
+set divisorin 0000011
 |0000011
-set dividendin 00001000 
+set dividendin 00010000 
 |00010000
 
 h start

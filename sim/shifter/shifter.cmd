@@ -1,3 +1,5 @@
+|Note: ShiftIn low means pass In through to Out, ShiftIn high means pass Right to Out
+
 stepsize 50
 w In Right ShiftIn ShiftOut Out
 vector input In Right ShiftIn
