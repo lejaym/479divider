@@ -10,12 +10,63 @@ h reset
 s
 h clk
 s
-l reset clk
+l clk
+s
+l reset sign start
 s
 h clk
 s
 l clk
 s
+h clk
+s
+l clk
+s
+h clk
+s
+l clk
+s
+h clk
+s
+l clk
+s
+h start
+h clk
+s
+l clk 
+s
+h clk
+s
+l clk
+s
+l start
+h clk
+s
+l clk
+h sign
+s
+h clk
+s
+l clk
+s
+h clk
+s
+l clk
+s
+h clk
+s
+l clk
+s
+h clk
+s
+l clk
+s
+s
+s
+s
+
+
+
 set in 0000
 h clk
 s
